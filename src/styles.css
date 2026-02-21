@@ -1,0 +1,10 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #f2f2f2; background: #111; }
+body { margin: 0; }
+#app { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; padding: 12px; }
+.stage { width: 100%; background: #000; border-radius: 8px; }
+.hiddenVideo { display: none; }
+.panel { display: flex; flex-direction: column; gap: 8px; background: #1c1c1c; padding: 10px; border-radius: 8px; }
+.panel label { display: flex; justify-content: space-between; gap: 8px; }
+.panel input[type='range'] { width: 140px; }
+.indicators p { margin: 4px 0; }
+button { cursor: pointer; }
